@@ -1,0 +1,81 @@
+body {
+  font-family: "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif;
+  line-height: 1.8;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* メインカード */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* タイトル */
+h2 {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+/* 見出し */
+h3 {
+  margin-top: 30px;
+  padding-left: 12px;
+  border-left: 6px solid #3498db;
+  color: #2c3e50;
+  font-size: 18px;
+}
+
+/* 本文 */
+p {
+  margin: 12px 0;
+}
+
+/* 箇条書き風の改行を見やすく */
+p br {
+  display: block;
+  margin-bottom: 6px;
+}
+
+/* 強調 */
+strong {
+  color: #2c3e50;
+}
+
+/* 区切り線 */
+hr {
+  margin: 40px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+/* フッター（日付） */
+.footer {
+  text-align: right;
+  color: #777;
+  font-size: 14px;
+}
+
+/* スマホ対応 */
+@media (max-width: 600px) {
+  .container {
+    margin: 15px;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+}
